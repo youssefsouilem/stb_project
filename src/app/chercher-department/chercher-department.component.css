@@ -37,3 +37,14 @@
   .search-option button:hover {
     background-color: #0077cc; /* Darker shade on hover */
   }
+  .image-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .button-image {
+    width: 100px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+  }

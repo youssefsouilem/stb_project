@@ -21,4 +21,8 @@ export class HomeComponent {
   handleClick1() {
     this.router.navigate(['../chercher-department']);
   }
+  onImageButtonClick(){
+    this.router.navigate(['../home']);
+
+  }
 }

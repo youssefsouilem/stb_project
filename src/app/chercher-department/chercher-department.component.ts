@@ -16,5 +16,9 @@ export class ChercherDepartmentComponent {
    handleClick1() {
      this.router.navigate(['../chercher-department-par-region']);
    }
+   onImageButtonClick(){
+    this.router.navigate(['../home']);
+
+  }
  }
 
